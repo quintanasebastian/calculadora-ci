@@ -8,7 +8,7 @@ Proyecto de calculadora con pruebas unitarias automatizadas y pipeline de Integr
 
 ## Estado del Pipeline
 
-<!-- BADGE: Persona B pegará aquí el badge de GitHub Actions al final -->
+[![PHP Continuous Integration](https://github.com/quintanasebastian/calculadora-ci/actions/workflows/php-ci.yml/badge.svg)](https://github.com/quintanasebastian/calculadora-ci/actions/workflows/php-ci.yml)
 
 ## Tecnologías
 - PHP 8.2
