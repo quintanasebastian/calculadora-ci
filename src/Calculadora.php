@@ -15,7 +15,9 @@ class Calculadora {
     }
 
     public function dividir($a, $b) {
-        // TODO: Implementar en el taller
-        return 0; 
+        if ($b == 0) {
+            throw new \InvalidArgumentException("No se puede dividir por cero.");
+        }
+        return $a / $b;
     }
 }
